@@ -4,6 +4,10 @@
     Existing Goal
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
 <link rel="stylesheet" type="text/css" href="sheets.css">
 </head>
  <nav class="navbar navbar-default">
@@ -17,18 +21,44 @@
 <div class="col-md-4">
     <div class="row">
         <div class="col-md-4"></div> <!-- this column empty -->
-        <div class="col-md-4 border"> 1 </div>
-        <div class="col-md-4 border"> 2 </div>
+        
+        <div class="col-md-4 border">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Complete?</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Yes or No?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 border"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Complete?</button> </div>
     </div>
 </div>
 
 <div class="col-md-8">
     <div class="row">
-        <div class="col-md-2 border"> 3 </div>
-        <div class="col-md-2 border"> 4 </div>
-        <div class="col-md-2 border"> 5 </div>
-        <div class="col-md-2 border"> 6 </div>
-        <div class="col-md-2 border"> 7 </div>
+        <div class="col-md-2 border"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Complete?</button> </div>
+        <div class="col-md-2 border"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Complete?</button> </div>
+        <div class="col-md-2 border"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Complete?</button> </div>
+        <div class="col-md-2 border"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Complete?</button> </div>
+        <div class="col-md-2 border"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Complete?</button> </div>
         <div class="col-md-2"></div> <!-- this column empty -->
     </div>
 </div>
