@@ -1,0 +1,54 @@
+#button1{
+ background-color: gold!important;
+}
+
+#button2{
+ background-color: lawngreen!important;
+}
+
+#button3{
+ background-color: powderblue!important;
+}
+
+.navbar{
+ background: gray;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+#buttondiv {
+    padding-top: 40px;
+}
+
+#newgoalform {
+    padding-top: 40px;
+}
+
+#days {
+    padding-top: 20px;
+}
+
+#grid7 {
+    padding-top: 40px;
+}
+
+/*#outline {
+    padding-left: 30px;
+    padding-right: 30px;
+}*/
+
+#submitnewgoalbtn {
+    color: black;
+    background-color: deepskyblue!important;
+}
+
+.square {
+  /*height: 60px;
+  width: 100px;*/
+}
+
+#middlecol {
+    width: 100%;
+}
