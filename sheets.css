@@ -52,3 +52,7 @@
 #middlecol {
     width: 100%;
 }
+
+#goalsuccessbuttons {
+    display: inline-block;
+}
